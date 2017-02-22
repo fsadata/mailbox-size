@@ -1,0 +1,29 @@
+{
+	"fields": [
+		{
+			"name": "MailboxSizeInMegabytes",
+			"title": "Mailbox Size In Megabytes",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "NumberOfMailboxes",
+			"title": "Number Of Mailboxes",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "Month",
+			"title": "Month",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m"
+			}
+		}
+	]
+}
